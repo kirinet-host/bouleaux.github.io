@@ -1,0 +1,55 @@
+.title {
+    color: green;
+}
+body {
+    background-color: rgb(231, 182, 107);
+    font-family: 
+}
+h1 {
+    font-size: 100%;
+    color: brown
+}
+pre {
+    font-size: 100%;
+    color: brown
+}
+#header {
+    font-size: 1.5vw;
+    padding: 5px;
+    display: inline-block;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 4px;
+    font-size: 1.5vw;
+    overflow:hidden;
+}
+    
+
+        
+#tree {
+    
+}
+#navigationbar {
+    text-align: center;
+    }
+#mainnavigation {
+    width: 70vw;
+    margin: auto;
+    background-color: blanchedalmond;
+    padding: 10px;
+    border: dotted;
+    display: block;
+}
+.txtlink {
+    font-family: Garamond, 'Times New Roman', serif;
+    font-size: x-large;
+    text-decoration: overline; color: brown;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
