@@ -45,6 +45,24 @@ pre {
     text-decoration: overline; color: brown;
 }
 
-@media only screen and (max-width: 600px) {
+hr {
+    border-top-width: medium;
+    border-color: darkgreen;
+}    
 
+@media only screen and (max-width: 600px) {
+#mainnavigation {
+    width: 90vw;
+   }
+.txtlink {
+    font-size: 8vw;
+}
+.parent {
+    display: block;
+    font-size: 2.2vw;
+    text-align-last: center;
+    overflow:hidden;
+}
+#birch {
+    width: 40vw;
 }
