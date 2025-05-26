@@ -20,11 +20,9 @@ pre {
 }
 
 .parent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 4px;
-    font-size: 1.5vw;
+    display: block;
+    font-size: 2.2vw;
+    text-align-last: center;
     overflow:hidden;
 }
 
@@ -32,7 +30,7 @@ pre {
     text-align: center;
 }
 #mainnavigation {
-    width: 70vw;
+    width: 90vw;
     margin: auto;
     background-color: blanchedalmond;
     padding: 10px;
@@ -41,7 +39,7 @@ pre {
 }
 .txtlink {
     font-family: Garamond, 'Times New Roman', serif;
-    font-size: 4.5vw;
+    font-size: 8vw;
     text-decoration: overline; color: brown;
 }
 
@@ -50,19 +48,27 @@ hr {
     border-color: darkgreen;
 }    
 
-@media only screen and (max-width: 600px) {
+#birch {
+    width: 40vw;
+}
+
+@media only screen and (min-width: 600px) {
 #mainnavigation {
-    width: 90vw;
+    width: 70vw;
    }
 .txtlink {
-    font-size: 8vw;
+    font-size: 4.5vw;
 }
 .parent {
-    display: block;
-    font-size: 2.2vw;
-    text-align-last: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 4px;
+    font-size: 1.5vw;
     overflow:hidden;
 }
 #birch {
-    width: 40vw;
+    width: 14vw;
+}    
+
 }
