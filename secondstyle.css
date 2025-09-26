@@ -30,13 +30,14 @@ nav {
     border-radius: 20px}
 
 footer {
-	color:#ffd8b9;
-	background-color:#87a653;
+	color:#482000;
+	background-color:#c29d00;
 	padding:10px;
 	margin:10px 5px;
 	border-radius: 10px;
-	opacity: 80%;
-	}
+	opacity: 100%;
+	text-align: center;
+}
 
 hr {border-top-width: 5px; border-color: #ad5700}
 
@@ -56,10 +57,13 @@ aside {
 	border-width: thick;
 	margin: 5px;}
 
+.screenshotdiv {display: flex; justify-content: center;}
+
 .screenshot {
-	display:block;
-	margin:auto;
-	border:2px #FFE463 solid;}
+	border:3px #000000 solid;
+	width: 150px;
+	image-rendering: initial;
+	margin: 0 1px}
 
 .rightimg {
 	float:right;
@@ -73,7 +77,14 @@ aside {
 
 .pixelimg {image-rendering:pixelated;}
 
-
+.bigrightimg {
+	display: block;
+	margin: auto;
+	width: 300px;
+	height: 250px;
+	object-fit: cover;
+	object-position: 0 -11px;
+	border:5px azure solid}
 
 
 a {color:rgb(119, 115, 98); font-weight:bold;}
@@ -93,7 +104,8 @@ img#header {order:0; border:2px #FFE463 solid;}
 .mainlink {color:#FFE463; font-weight:bold; margin-left: 5px; margin-right: 5px;}
 .changelang {background-color: darkorange; text-align: center; width: fit-content; padding: 1.5px; margin: auto;}
 .txtlink {text-decoration: overline; color: rgb(117, 48, 11); line-height: 1.8; font-size: x-large; background-color: #f3881b; padding: 5px; border-radius: 44px; border-block-end-style: solid;}
-.hoxbox {background-color: #ff5c5c; font-size: 13px; width: fit-content; margin: auto; padding: 5px; color: darkred}
+.hoxbox {background-color: #ff5c5c; font-size: 15px; width: fit-content; margin: auto; padding: 5px; color: darkred}
+.credits {font-size: x-small; color: black; margin-top: 30px;}
 
 #mainnav {
     background-color: rgb(255, 194, 44);
@@ -102,6 +114,8 @@ img#header {order:0; border:2px #FFE463 solid;}
 	text-align-last: center;
     }
 
+.navlist {display: flex; flex-direction: column; align-items: center; line-height: 1.4}
+
 #logtable {
 	table {background-color: darkgoldenrod;}
 	tr {background-color:#0f0e0e;}
@@ -109,7 +123,7 @@ img#header {order:0; border:2px #FFE463 solid;}
 	ul {width: fit-content; float: left; margin: 13px 13px 13px 0;}
 	li {font-size: x-small; color:chocolate; font-weight: bold;}
     p {text-align: justify; color: burlywood; font-weight: 100; padding: 0 10px; font-size: smaller;}
-	h3 {text-align: justify; color:#dca2a2; padding-left: 10px; padding-top: 12px; font-size: x-small; font-weight: bold;}
+	h3 {text-align: justify; color:#fff86a; padding-left: 10px; padding-top: 12px; font-size: x-small; font-weight: bold;}
 	.coverartvertical {width: 100px; float: inline-end; margin: 10px 10px 10px 20px}
 	.coverarthorizontal {width: 150px; float: inline-end; margin: 10px 10px 10px 20px}
 }
@@ -145,5 +159,6 @@ img#header {order:0; border:2px #FFE463 solid;}
 
 	.centerimg {width:unset;}
 	.centerimgdiv {display: flex; flex-direction: row; justify-content: center;}
-	.screenshot {width:480px; height:270px;}
+	.screenshot {width:250px;}
+	.bigrightimg {float:right; object-fit: unset; width: 400px; height: unset; object-position: unset; margin: 0 0 5px 20px}
 }
